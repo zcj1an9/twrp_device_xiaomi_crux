@@ -138,3 +138,6 @@ TWRP_INCLUDE_LOGCAT := true
 
 # TWRP - Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
+
+# Maintainer
+TW_DEVICE_VERSION := ZC_J1an9

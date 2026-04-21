@@ -87,7 +87,7 @@ TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 # TWRP
-TW_DEVICE_VERSION := Unified Ver By Helium_Studio
+TW_DEVICE_VERSION := Unified Ver By ZC_J1an9
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
@@ -138,6 +138,3 @@ TWRP_INCLUDE_LOGCAT := true
 
 # TWRP - Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
-
-# Maintainer
-TW_DEVICE_VERSION := ZC_J1an9
